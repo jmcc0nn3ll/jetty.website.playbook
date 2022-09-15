@@ -1,0 +1,24 @@
+site:
+  title: Eclipse Jetty
+  start_page: eclipse-website::index.adoc
+content:
+  sources:
+  - url: https://github.com/jmcc0nn3ll/jetty.project.git
+    branches: [jetty-12.0.x]
+    start_path: documentation/eclipse-website
+  - url: https://github.com/jmcc0nn3ll/jetty.project.git
+    branches: [jetty-10.0.x, jetty-11.0.x, jetty-12.0.x]
+    start_path: documentation/programming-guide
+  - url: https://github.com/jmcc0nn3ll/jetty.project.git
+    branches: [jetty-10.0.x, jetty-11.0.x, jetty-12.0.x]
+    start_path: documentation/operations-guide
+  - url: https://github.com/jmcc0nn3ll/jetty.project.git
+    branches: [jetty-12.0.x]
+    start_path: documentation/contribution-guide
+  - url: https://github.com/jmcc0nn3ll/jetty.project.git
+    branches: [ jetty-9.4.x ]
+    start_path: documentation/definitive-reference
+ui: 
+  bundle:
+    url: ../jetty-antora-ui/build/ui-bundle.zip
+    snapshot: true
